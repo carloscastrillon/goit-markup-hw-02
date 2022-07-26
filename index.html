@@ -2,15 +2,19 @@
 <html lang="es">
   <head>
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Tarea Numero1</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    />
+    <title>Tarea Numero2</title>
   </head>
 
   <header>
     <nav>
       <a class="logowebstudio" href="index.html">WebStudio</a>
-      <a class="linkestudio" href="">Estudio</a>
-      <a class="linkportafolio" href="portafolio.html">Portafolio</a>
-      <a class="textcontacto" href="">Сontactos</a>
+      <a class="linkheader" href="">Estudio</a>
+      <a class="linkheader" href="portafolio.html">Portafolio</a>
+      <a class="linkheader" href="">Сontactos</a>
     </nav>
     <a class="linkemail" href="malito:carlosandrescas@gmail.com"
       >carlosandrescas@gmail.com</a
@@ -22,10 +26,12 @@
     <main>
       <section class="solutions">
         <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button type="button">Solicite nuestro servicio</button>
+        <button class="buttonsolutions" type="button">
+          Solicite nuestro servicio
+        </button>
       </section>
 
-      <ul>
+      <ul class="listdetails">
         <li>
           <h3>ATENCIÓN A LOS DETALLES</h3>
           <p>
@@ -34,22 +40,28 @@
           </p>
         </li>
         <li>
-          <p>PUNTUALIDAD</p>
-          Con nosotros, usted puede sentirse seguro y protegido. Un principio
-          importante de la empresa: respetar su tiempo y respetar los plazos
-          acordados.
+          <h3>PUNTUALIDAD</h3>
+          <p>
+            Con nosotros, usted puede sentirse seguro y protegido. Un principio
+            importante de la empresa: respetar su tiempo y respetar los plazos
+            acordados.
+          </p>
         </li>
 
         <li>
-          <p>PLANIFICACIÓN</p>
-          Usted podrá observar y participar en cada fase del desarrollo y
-          aplicación de soluciones.
+          <h3>PLANIFICACIÓN</h3>
+          <p>
+            Usted podrá observar y participar en cada fase del desarrollo y
+            aplicación de soluciones.
+          </p>
         </li>
 
         <li>
-          <p>TEGNOLOGÍA MODERNA</p>
-          Usamos herramientas innovadoras para resolver las tareas asignadas. Es
-          hora de simplificar los procesos laborales.
+          <h3>TEGNOLOGÍA MODERNA</h3>
+          <p>
+            Usamos herramientas innovadoras para resolver las tareas asignadas.
+            Es hora de simplificar los procesos laborales.
+          </p>
         </li>
       </ul>
 
@@ -73,7 +85,7 @@
 
       <h2>Nuestro Equipo</h2>
 
-      <ul>
+      <ul class="listteam">
         <li>
           <figure>
             <img
@@ -82,10 +94,8 @@
               width="200"
             />
             <figcaption>
-              <p>
-                Andrés Cubo <br />
-                Diseñador de Productos
-              </p>
+              <h3>Andrés Cubo</h3>
+              <p>Diseñador de Productos</p>
             </figcaption>
           </figure>
         </li>
@@ -98,10 +108,8 @@
               width="200"
             />
             <figcaption>
-              <p>
-                Carla Palacios<br />
-                Desarrolladora Frontend
-              </p>
+              <h3>Carla Palacios</h3>
+              <p> Desarrolladora Frontend </p>
             </figcaption>
           </figure>
         </li>
@@ -114,10 +122,8 @@
               width="200"
             />
             <figcaption>
-              <p>
-                Mario Dorado<br />
-                Marketing
-              </p>
+              <h3>Mario Dorado</h3>
+              <p> Marketing</p>
             </figcaption>
           </figure>
         </li>
@@ -130,21 +136,20 @@
               width="200"
             />
             <figcaption>
-              <p>
-                Pablo Mijangos<br />
-                Diseñador IU
-              </p>
+              <h3>Pablo Mijangos</h3>
+              <p>Diseñador IU </p>
             </figcaption>
           </figure>
         </li>
       </ul>
     </main>
     <footer>
-      <a href="">WebStudio</a><br />
+      <a class="logowebstudio" href="">WebStudio</a><br />
       <address>Via el Rosario km2 - 754</address>
-      <a href="malito:carlosandrescas@gmail.com">carlosandrescas@gmail.com</a
+      <a class="linkemail" href="malito:carlosandrescas@gmail.com"
+        >carlosandrescas@gmail.com</a
       ><br />
-      <p>+57-3172802706</p>
+      <p class="celnumber">+57-3172802706</p>
     </footer>
   </body>
 </html>
