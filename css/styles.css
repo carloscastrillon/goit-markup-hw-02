@@ -36,6 +36,35 @@ footer .linkemail {
   font-size: 18x;
 }
 
+
+.linkheader,  .listdetails h3{
+  line-height: 1.14;
+ }  
+
+ .solutions h1{
+  line-height: 1.36;
+ }
+
+ .buttonsolutions, .listprojects p{
+  line-height: 1.88;
+ }
+
+ .listdetails p , address , .linkemail,.celnumber{
+  line-height: 1.71;
+ }
+
+ .listteam {
+  line-height: 1.18;
+ }
+
+ .buttonportafolio{
+  line-height: 1.62;
+ }
+
+ .listprojects h3{
+  line-height: 2.0;
+ }
+
 footer,
 .solutions {
   background-color: #2f303a;
